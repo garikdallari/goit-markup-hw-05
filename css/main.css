@@ -139,6 +139,7 @@
   border: none;
   background-color: var(--blue-accent);
   color: var(--white-primary);
+  cursor: pointer;
 }
 
 /* features */
@@ -498,4 +499,5 @@
   height: 30px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
