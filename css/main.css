@@ -308,7 +308,7 @@
   fill: #afb1b8;
 }
 .link-icon {
-  transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
+  transition: background-color 250ms var(--cubic);
 }
 .link-icon:hover,
 .link-icon:focus {
@@ -320,6 +320,7 @@
 .link-icon:hover .soc-icon,
 .link-icon:focus .soc-icon {
   fill: currentColor;
+  color: var(--white-primary);
 }
 .team-icons a {
   display: flex;
@@ -354,8 +355,8 @@
   border: 1px solid #afb1b8;
   justify-content: center;
   align-items: center;
-  transition: border 250ms var(--cubic), color 250ms var(--cubic),
-    border-radius 250ms var(--cubic);
+  color: var(--blue-accent);
+  transition: border 250ms var(--cubic), border-radius 250ms var(--cubic);
 }
 
 .partners-link:hover,
@@ -368,6 +369,7 @@
 .partners-link:hover svg,
 .partners-link:focus svg {
   fill: currentColor;
+  color: var(--blue-accent);
 }
 .partners-link svg {
   fill: #afb1b8;
