@@ -66,6 +66,7 @@
 .header .header-contact:hover,
 .header .header-contact:focus {
   color: var(--blue-accent);
+  outline: none;
 }
 
 .header .header-list.current {
@@ -364,6 +365,7 @@
   border: 1px solid #2196f3;
   border-radius: 4px;
   color: var(--blue-accent);
+  outline: none;
 }
 
 .partners-link:hover svg,
@@ -417,6 +419,7 @@
 .footer .footer-link:hover,
 .footer .footer-link:focus {
   color: var(--blue-accent);
+  outline: none;
 }
 .footer-cnt {
   display: inline-flex;
