@@ -66,7 +66,6 @@
 .header .header-contact:hover,
 .header .header-contact:focus {
   color: var(--blue-accent);
-  outline: none;
 }
 
 .header .header-list.current {
@@ -305,23 +304,21 @@
   margin-right: 10px;
 }
 
-.soc-icon {
-  fill: #afb1b8;
-}
 .link-icon {
-  transition: background-color 250ms var(--cubic);
+  transition: background-color 250ms var(--cubic), fill 250ms var(--cubic);
+  border-radius: 50%;
+  fill: #afb1b8;
 }
 .link-icon:hover,
 .link-icon:focus {
   background-color: var(--blue-accent);
   color: var(--white-primary);
-  border-radius: 50%;
+
   outline: none;
 }
 .link-icon:hover .soc-icon,
 .link-icon:focus .soc-icon {
   fill: currentColor;
-  color: var(--white-primary);
 }
 .team-icons a {
   display: flex;
@@ -356,8 +353,10 @@
   border: 1px solid #afb1b8;
   justify-content: center;
   align-items: center;
-  color: var(--blue-accent);
-  transition: border 250ms var(--cubic), border-radius 250ms var(--cubic);
+
+  fill: #afb1b8;
+  transition: fill 250ms var(--cubic), border 250ms var(--cubic),
+    border-radius 250ms var(--cubic);
 }
 
 .partners-link:hover,
@@ -366,15 +365,7 @@
   border-radius: 4px;
   color: var(--blue-accent);
   outline: none;
-}
-
-.partners-link:hover svg,
-.partners-link:focus svg {
-  fill: currentColor;
-  color: var(--blue-accent);
-}
-.partners-link svg {
-  fill: #afb1b8;
+  fill: var(--blue-accent);
 }
 
 /* Footer */
@@ -419,7 +410,6 @@
 .footer .footer-link:hover,
 .footer .footer-link:focus {
   color: var(--blue-accent);
-  outline: none;
 }
 .footer-cnt {
   display: inline-flex;

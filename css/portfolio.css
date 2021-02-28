@@ -66,7 +66,6 @@
 .header .header-contact:hover,
 .header .header-contact:focus {
   color: var(--blue-accent);
-  outline: none;
 }
 
 .header .header-list.current {
@@ -277,7 +276,6 @@
 .footer .footer-link:hover,
 .footer .footer-link:focus {
   color: var(--blue-accent);
-  outline: none;
 }
 .footer-cnt {
   display: inline-flex;
